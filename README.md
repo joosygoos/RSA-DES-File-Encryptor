@@ -6,6 +6,14 @@ The core idea is to use the fast and efficient DES algorithm to encrypt the bulk
 
 ---
 
+## Key Concepts Demonstrated
+
+* **Asymmetric Cryptography (RSA)**: The use of a public/private key pair. Ideal for securing small amounts of data, like encryption keys.
+* **Symmetric Cryptography (DES)**: The use of a single shared secret key. Very fast and efficient for encrypting large amounts of data.
+* **Hybrid Encryption**: A system that combines the convenience and security of asymmetric cryptography with the speed of symmetric cryptography to create a robust and practical security solution.
+
+---
+
 ## How It Works
 
 The process simulates sending a file securely from a sender to a receiver:
@@ -62,10 +70,3 @@ To run this project, you will need Python 3 installed.
 
 The script will automatically verify if the decrypted image matches the original and print a success or failure message.
 
----
-
-## Key Concepts Demonstrated
-
-* **Asymmetric Cryptography (RSA)**: The use of a public/private key pair. Ideal for securing small amounts of data, like encryption keys.
-* **Symmetric Cryptography (DES)**: The use of a single shared secret key. Very fast and efficient for encrypting large amounts of data.
-* **Hybrid Encryption**: A system that combines the convenience and security of asymmetric cryptography with the speed of symmetric cryptography to create a robust and practical security solution.
